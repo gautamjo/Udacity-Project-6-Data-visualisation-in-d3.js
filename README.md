@@ -29,7 +29,7 @@ The changes I made to the chart post feedback are as follows:
 * I added and styled an animated title in CSS which fades in and settles on top of the plot.  
 
 Final rendition of the visualisation looks this:
-<a href="https://bl.ocks.org/gautamjo/raw/42f15332a5402ade4b314504edd31fb5/3efae9c49f774f414a5ecee4b211514e20dd9025/">
+<a href="https://bl.ocks.org/gautamjo/raw/42f15332a5402ade4b314504edd31fb5/3efae9c49f774f414a5ecee4b211514e20dd9025"> Final Plot</a>
 
 ### Resources ###
 
