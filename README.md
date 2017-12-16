@@ -1,10 +1,10 @@
-##Data Visualisation with D3: Total US Flights Cancellations 2008##
+## Data Visualisation with D3: Total US Flights Cancellations 2008 ##
 
-###Summary###
+### Summary ###
 
 This visualisation displays total cancelled flights in the US in year 2008. The visualisation is a grouped bar chart which shows the number of cancellations broken down into months and then further separated by days of week.
 
-###Design###
+### Design ###
 
 I used US flights data from 2008 downloaded from <a href="http://stat-computing.org/dataexpo/2009/the-data.html">this page</a> and is provided by <a href="https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp" target="_blank">RITA</a>. The initial sketch of my plot and data re-modelling process can be seen <a href="https://gautamjo.github.io/blogdown/2017/12/12/us-flight-cancellations-in-2008/" target="_ blank">here</a>. 
 
