@@ -6,9 +6,9 @@ This visualisation displays total cancelled flights in the US in year 2008. The 
 
 ### Design ###
 
-I used US flights data from 2008 downloaded from <a href="http://stat-computing.org/dataexpo/2009/the-data.html">this page</a> and is provided by <a href="https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp" target="_blank">RITA</a>. The initial sketch of my plot and data re-modelling process can be seen <a href="https://gautamjo.github.io/blogdown/2017/12/12/us-flight-cancellations-in-2008/" target="_ blank">here</a>. 
+I used US flights data from 2008 downloaded from <a href="http://stat-computing.org/dataexpo/2009/the-data.html">this page</a> and is provided by <a href="https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp">RITA</a>. The initial sketch of my plot and data re-modelling process can be seen <a href="https://gautamjo.github.io/blogdown/2017/12/12/us-flight-cancellations-in-2008/">here</a>. 
 
-My design choice was to keep the plot simple yet informative. The idea was to display cancelled flights on an annual basis. Hence, I decided to use bar charts as way to represent the number of cancellation through out the year separated by months. Inspired by Mike Bostock's <a href="https://bl.ocks.org/mbostock/3887051" target="_blank">grouped chart</a>, I further decided to break the chart into days of week to show how the number of cancellations varied over the week.
+My design choice was to keep the plot simple yet informative. The idea was to display cancelled flights on an annual basis. Hence, I decided to use bar charts as way to represent the number of cancellation through out the year separated by months. Inspired by Mike Bostock's <a href="https://bl.ocks.org/mbostock/3887051">grouped chart</a>, I further decided to break the chart into days of week to show how the number of cancellations varied over the week.
 
 ### Feedback ###
 
@@ -29,13 +29,13 @@ The changes I made to the chart post feedback are as follows:
 * I added and styled an animated title in CSS which fades in and settles on top of the plot.  
 
 Final rendition of the visualisation looks this:
-<a href="https://bl.ocks.org/gautamjo/raw/42f15332a5402ade4b314504edd31fb5/3efae9c49f774f414a5ecee4b211514e20dd9025/" target="_blank>
+<a href="https://bl.ocks.org/gautamjo/raw/42f15332a5402ade4b314504edd31fb5/3efae9c49f774f414a5ecee4b211514e20dd9025/">
 
 ### Resources ###
 
 * https://d3js.org/
 
-* <a href="https://bl.ocks.org/mbostock" target="_blank">Mike Bostock's Block - bl.ocks.org</a>
+* <a href="https://bl.ocks.org/mbostock">Mike Bostock's Block - bl.ocks.org</a>
 
 * Interactive Data Visualisation in D3 for the web by Scott Muray
 
