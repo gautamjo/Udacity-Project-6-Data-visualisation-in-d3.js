@@ -10,17 +10,17 @@ I used US flights data from 2008 downloaded from <a href="http://stat-computing.
 
 My design choice was to keep the plot simple yet informative. The idea was to display cancelled flights on an annual basis. Hence, I decided to use bar charts as way to represent the number of cancellation through out the year separated by months. Inspired by Mike Bostock's <a href="https://bl.ocks.org/mbostock/3887051" target="_blank">grouped chart</a>, I further decided to break the chart into days of week to show how the number of cancellations varied over the week.
 
-###Feedback###
+### Feedback ###
 
 I took two feedbacks from 2 different people here are there responses:
 
-####Interviewer #1####
+#### Interviewer #1 ####
 >Your plot is animated but it does not have interactivity. Consider adding a tooltip to display day and >count of cancellations so that it bring more clarity for the viewer.
 
-####Interviewer #2####
+#### Interviewer #2 ####
 >Your plot is looking fine but if you add an animated title it might look better as a composition where all elements of the plot, be it shapes or text, are animated.
 
-###Post Feedback###
+### Post Feedback ###
 
 The changes I made to the chart post feedback are as follows:
 
@@ -31,7 +31,7 @@ The changes I made to the chart post feedback are as follows:
 Final rendition of the visualisation looks this:
 <a href="https://bl.ocks.org/gautamjo/raw/42f15332a5402ade4b314504edd31fb5/3efae9c49f774f414a5ecee4b211514e20dd9025/" target="_blank>
 
-###Resources###
+### Resources ###
 
 * https://d3js.org/
 
@@ -43,7 +43,7 @@ Final rendition of the visualisation looks this:
 
 * Javascript Novice to Ninja by Darren Jones
 
-Data 
+### Data ###
 
 * <code>total_cancellations_2008.csv</code> Remodelled data used for D3 visualisation.
 
