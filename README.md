@@ -15,10 +15,13 @@ My design choice was to keep the plot simple yet informative. The idea was to di
 I took two feedbacks from 2 different people here are there responses:
 
 #### Interviewer #1 ####
->Your plot is animated but it does not have interactivity. Consider adding a tooltip to display day and >count of cancellations so that it bring more clarity for the viewer.
+>Your plot is animated but it does not have interactivity. Consider adding a tooltip to display day and count of cancellations so that it bring more clarity for the viewer.
 
 #### Interviewer #2 ####
 >Your plot is looking fine but if you add an animated title it might look better as a composition where all elements of the plot, be it shapes or text, are animated.
+
+#### Interviewer #3 ####
+> Currently, the visualisation is more exploratory than explanatory. Examples could include trends or periodicity by month or day of the week. This may be helped by a design change such as line charts or small multiples. The bar chart could still work though. Also consider a more divergent colour scheme (it's hard to see colours by day of the week) and using a narrative paragraph to help the reader focus on the main finding(s).
 
 ### Post Feedback ###
 
