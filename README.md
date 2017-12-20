@@ -13,7 +13,19 @@ I used US flights data from 2008 downloaded from <a href="http://stat-computing.
 For more information regarding this plot and data re-modelling process kindly click <a href="https://gautamjo.github.io/blogdown/2017/12/12/us-flight-cancellations-in-2008/">here</a>. 
 
 
-My design choice was to keep the plot simple yet informative. The idea was to display cancelled flights on an annual basis. Hence, I decided to use bar charts as way to represent the number of cancellation through out the year separated by months. Inspired by Mike Bostock's <a href="https://bl.ocks.org/mbostock/3887051">grouped chart</a>, I further decided to break the chart into days of week to show how the number of cancellations varied over the week.
+My design choices were to keep the plot simple yet informative. I used minimal backgrounds, basic axes and solid colour schemes for the plots in order to keep the plots easy on the eyes yet look professional. In all the three plot my intentions have been to show the viewer flight cancellation trends on an annual basis. To explain this better, here are images of the three plots I have used in this project. 
+
+#### Line Chart: ####
+
+![alt text](img/line_chart.png)
+
+#### Ordered Bar Chart: ####
+
+![alt text](img/ordered_bar_char.png)
+
+#### Grouped Chart: ####
+
+![alt text](img/grouped_chart_month_dow_feb_mar.png)
 
 ### Feedback ###
 
