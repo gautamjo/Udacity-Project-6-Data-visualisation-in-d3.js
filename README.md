@@ -8,7 +8,7 @@ There are three visualisations used in this project. All three of them display c
 
 I used US flights data from 2008 downloaded from <a href="http://stat-computing.org/dataexpo/2009/the-data.html">this page</a> and is provided by <a href="https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp">RITA</a>. I started with an initial sketch of a grouped bar chart which I made using ggplot in R. This is image of that plot:
 
-[id]: img/ggplot_grouped_chart.png
+![alt text](img/ggplot_grouped_chart.png)
 
 The initial sketch of my plot and data re-modelling process can be seen <a href="https://gautamjo.github.io/blogdown/2017/12/12/us-flight-cancellations-in-2008/">here</a>. 
 
