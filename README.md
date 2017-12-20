@@ -19,7 +19,7 @@ The plot made in ggplot was then replicated in d3. Here is the image of the same
 
 ![alt text](img/initial_sketch_in_d3.png)
 
-If you wish to view the actual plot clicking [THIS](https://bl.ocks.org/gautamjo/raw/42f15332a5402ade4b314504edd31fb5/3efae9c49f774f414a5ecee4b211514e20dd9025/) link will take you there. Furthermore, there is a folder named trials in the repository in contains codes to all previous versions of this chart. If you wish to see those codes and view previous versions of the plot I request you to kindly access that folder.
+If you wish to view the actual plot clicking [THIS](https://bl.ocks.org/gautamjo/raw/42f15332a5402ade4b314504edd31fb5/3efae9c49f774f414a5ecee4b211514e20dd9025/) link will take you there. Furthermore, there is a folder named trials in the repository that contains codes to all previous versions of this chart. If you wish to see those codes and view previous versions of the plot I request you to kindly access that folder.
 
 Let me now briefly discuss about the design choices I made for this project. Because I was using conventional plots like line chart or bar plots which require use of primitive shapes, my objective was to keep the designs simple, minimal and neat. I used minimal backgrounds, basic axes and solid colour schemes for the plots in order to keep the plots easy on the eyes while maintaining a professional look. I tried keeping the plots engaging and interesting by introducing animations and interactivity in an effort to convey more information to the viewer. To explain this better, here are images of the three plots I have used in this project. 
 
