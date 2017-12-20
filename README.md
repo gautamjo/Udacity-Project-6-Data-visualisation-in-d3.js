@@ -2,15 +2,16 @@
 
 ### Summary ###
 
-There are three visualisations used in this project. All three of them display cancelled flights in the US in year 2008. I have started the presentation with a line chart following it up with an ordered bar chart and finally finishing with a grouped chart. Both the line chart and the bar chart show total annual cancellations broken down into months. The grouped bar chart shows the number of cancellations broken down into months and then further separated by days of week.
+There are three visualisations used in this project. All three of them display cancelled flights in the US in year 2008. I started the presentation with a line chart, following it up with an ordered bar chart and finally finishing with a grouped chart. Both the line chart and the bar chart show total annual cancellations broken down into months. The grouped bar chart shows the number of cancellations broken down into months and then further separated by days of week.
 
 ### Design ###
 
-I used US flights data from 2008 downloaded from <a href="http://stat-computing.org/dataexpo/2009/the-data.html">this page</a> and is provided by <a href="https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp">RITA</a>. I started with an initial sketch of a grouped bar chart which I made using ggplot in R. This is image of that plot:
+I used US flights data from 2008 downloaded from <a href="http://stat-computing.org/dataexpo/2009/the-data.html">this page</a> and is provided by <a href="https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp">RITA</a>. When I started working on the project I focused on designing only one chart which was a grouped chart showing number of cancellations separated by months and days of week. However, after the project was reviewed, I changed my approach and decide to introduce two more chart in order to show the trends more clearly. Below is the image of an initial sketch of the grouped chart I made using ggplot in R. 
 
 ![alt text](img/ggplot_grouped_chart.png)
 
-The initial sketch of my plot and data re-modelling process can be seen <a href="https://gautamjo.github.io/blogdown/2017/12/12/us-flight-cancellations-in-2008/">here</a>. 
+For more information regarding this plot and data re-modelling process kindly click <a href="https://gautamjo.github.io/blogdown/2017/12/12/us-flight-cancellations-in-2008/">here</a>. 
+
 
 My design choice was to keep the plot simple yet informative. The idea was to display cancelled flights on an annual basis. Hence, I decided to use bar charts as way to represent the number of cancellation through out the year separated by months. Inspired by Mike Bostock's <a href="https://bl.ocks.org/mbostock/3887051">grouped chart</a>, I further decided to break the chart into days of week to show how the number of cancellations varied over the week.
 

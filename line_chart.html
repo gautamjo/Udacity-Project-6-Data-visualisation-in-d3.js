@@ -3,10 +3,6 @@
   <meta charset="utf-8">
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <style>
-  .axis line{
-    fill: none;
-    stroke: grey;
-  }
 
   .line{
     fill: none;
@@ -31,7 +27,7 @@
     var margin = {top: 20, right: 50, bottom: 30, left: 50},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
-		
+    
     // loading data
     var dataset = [{Month:"January", Count:17308}, 
                    {Month:"February", Count:20596}, 
@@ -45,70 +41,54 @@
                    {Month:"October", Count:3245},
                    {Month:"November", Count:4458}, 
                    {Month:"December", Count:17779}];
-		
+    
     // setting up scale for categorical data
     var xScale = d3.scalePoint()
         .domain(dataset.map(function(d) { return d.Month; }))
-    		.range([0, width]);
-		
+        .range([0, width]);
+    
     // setting up a linear scale for numerical data
     var yScale = d3.scaleLinear()
         .domain([0, d3.max(dataset, function(d){ return parseInt(d.Count); })])
         .range([height, 0]);
     
-		// setting up svg line 
+    // setting up svg line 
     var line = d3.line()
         .x(function(d) { return xScale(d.Month); })
         .y(function(d) { return yScale(parseInt(d.Count)); });
-		
+    
     // setting up svg attributes and group
     var svg = d3.select("body")
-    		.append("svg")
+        .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
-      	.append("g")
+        .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-		
-    // setting up x axis grid lines
-    svg.append("g")
-      .attr("class", "X axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(xScale)
-            .tickSize(-height)
-            .tickFormat("")
-            .ticks(5));
-		
-    // setting up y axis grid lines
-    svg.append("g")
-      .attr("class", "Y axis")
-      .call(d3.axisLeft(yScale)
-            .tickSize(-width)
-            .tickFormat("")
-            .ticks(5));
-		
+  
     // setting up path
     svg.append("path")
       .data([dataset])
       .attr("class", "line")
-    	.style("opacity", 0)
-    	.transition()
-  		.delay(500)
-    	.duration(1000)
+      .style("opacity", 0)
+      .transition()
+      .delay(500)
+      .duration(1000)
       .attr("d", line)
-    	.style("opacity",1);
-		
+      .style("opacity",1);
+    
     // adding x axis
     svg.append("g")
+      .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(xScale));
-		
+    
     // adding y axis
     svg.append("g")
-    	.attr("class", "y axis")
-    	.style("opacity", 0)
+      .attr("class", "y axis")
+      .style("opacity", 0)
       .call(d3.axisLeft(yScale))
-    	.append("text")
-    	.attr("y", 6)
+      .append("text")
+      .attr("y", 6)
       .attr("dy", "0.71em")
       .attr("fill", "#000")
       .attr("font-weight", "bold")
@@ -118,9 +98,8 @@
     
     svg.select(".y")
        .transition()
-       .duration(500)
-       .delay(1300)
-       // setting up full opacity after transition
+       .delay(500)
+       .duration(300)
        .style("opacity", "1")
 
 
