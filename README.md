@@ -43,7 +43,7 @@ In this plot, the four months (from Feb - Mar as they appear in the ordered char
 
 ### Feedback ###
 
-I took two feedbacks from 2 different people here are there responses. The third feedback was the review by the project reviewer:
+I took two feedbacks from 2 different people. The third feedback was the review by the project reviewer. Here are there responses:
 
 #### Interviewer #1 ####
 >Your plot is animated but it does not have interactivity. Consider adding a tooltip to display day and count of cancellations so that it bring more clarity for the viewer.
@@ -74,7 +74,9 @@ Here are the links to the final rendition of plots:
 
 * [Ordered Bar Chart](https://bl.ocks.org/gautamjo/bff786c997b6ab4a8c609951aac9f3aa/1f4177ab387379fe5305fae532bbd7ae43ffb9e1)
 
-* [Grouped Bar Chart](https://bl.ocks.org/gautamjo/116c0af4b438b99ab444d971c661588b/2d65d68e9b46558b0038c45509bcb1ebab92aa35)
+* [Grouped Bar Chart](https://bl.ocks.org/gautamjo/116c0af4b438b99ab444d971c661588b/414bce2d939526721c7df54a488e1c2c53f9717f)
+
+The best way to view these plots, in my humble opinion, would be to use the internal link provided in the description of the plots. These links will take the viewer from one plot to the next in the correct order. 
 
 ### Resources ###
 
