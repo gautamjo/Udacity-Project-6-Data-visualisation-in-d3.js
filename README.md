@@ -72,7 +72,7 @@ Here are the links to the final rendition of plots:
 
 * [Line Chart](https://bl.ocks.org/gautamjo/88930e3886feab371ceca8fcda3ae8cd/ca6b85af0b208489a8a678e8986bcc0e05447fcf)
 
-* [Ordered Bar Chart](https://bl.ocks.org/gautamjo/bff786c997b6ab4a8c609951aac9f3aa/1f4177ab387379fe5305fae532bbd7ae43ffb9e1)
+* [Ordered Bar Chart](https://bl.ocks.org/gautamjo/bff786c997b6ab4a8c609951aac9f3aa)
 
 * [Grouped Bar Chart](https://bl.ocks.org/gautamjo/116c0af4b438b99ab444d971c661588b/414bce2d939526721c7df54a488e1c2c53f9717f)
 
